@@ -9,17 +9,17 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [ "onStartupFinished" ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "progflow.helloWorld",
-        "title": "Hello World"
+        "command": "progflow.startSession",
+        "title": "Start Session"
       },
       {
-        "command": "progflow.openDialog",
-        "title": "Open Dialog"
+        "command": "progflow.closeSession",
+        "title": "Close Session"
       }
     ]
   },
